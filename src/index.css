@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Belanosima', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body * {
+  font-size: 2vw;
+}
+input {
+  font-size: 2vw !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  background-color: rgb(223, 104, 104) !important;
+}
+@media screen and (max-width: 900px) {
+  .btn {
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .btn {
+    font-size: 7px !important;
+  }
+}
